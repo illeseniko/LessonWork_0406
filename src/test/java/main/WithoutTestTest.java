@@ -44,7 +44,17 @@ class WithoutTestTest {
 
     @Test
     void test_checkGender() {
-        // write your test cases here
+        String result1= WithoutTest.checkGender(0);
+        System.out.println(result1.equals("nő"));
+        assertEquals("nő",result1);
+
+        String result2= WithoutTest.checkGender(1);
+        System.out.println(result1.equals("férfi"));
+        assertEquals("férfi",result2);
+
+        String result3= WithoutTest.checkGender(2);
+        System.out.println(result1.equals("valami más"));
+        assertEquals("valami más",result3);
     }
 
     @Test
