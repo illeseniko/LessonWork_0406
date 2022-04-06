@@ -39,7 +39,7 @@ public class NumberSystem {
 
         long binaryShouldBe = 1000010010010L;
 
-        return binaryShouldBe;
+        return binary;
     }
 
 }
